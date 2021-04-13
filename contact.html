@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+
+    <title>MyDemo Project</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark d-flex">
+        <a class="navbar-brand" href="index.html">
+            <img src="40_40logo.png" width="30" height="30" class="d-inline-block align-top" alt="">
+            ReserveLoop
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="/index.html">ParkNow</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="/about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="/contact.html">Contact Us</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Quick Links
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Account</a></li>
+                            <li><a class="dropdown-item" href="#">Set-Up Payments</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Logout</a></li>
+                        </ul>
+                    </li>
+
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <section class="hero" style="background: rgb(250, 250, 250);">
+        <div class="container">
+
+            <div class="hero-content pb-5 text-center ">
+                <h1 class="mb-5">Contact Us</h1>
+                <div class="row">
+                    <div class="mx-auto col-xl-8">Are you curious about something? feel free to contact us for any query
+                        related to us.</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-6 " style="background: rgb(250, 250, 250);">
+        <div class="container">
+            <div class="row">
+                <div class="text-center text-md-left col-md-4">
+                    <ion-icon name="location-outline"></ion-icon>
+                    <h4>Address</h4>
+                    <p class="text-muted">Belgaum<br>Shastri Nagar<br>Karnataka <strong>India</strong></p>
+                </div>
+                <div class="text-center text-md-left col-md-4">
+                    <ion-icon name="call-outline"></ion-icon>
+                    <h4>Call center</h4>
+                    <p class="text-muted">For any enquiry call us</p>
+                    <p class="text-muted"><strong>+91 6362704622</strong></p>
+                </div>
+
+                <div class="text-center text-md-left col-md-4">
+                    <ion-icon name="mail-outline"></ion-icon>
+                    <h4>Mail Support</h4>
+                    <p class="text-muted">Please feel free to write an email to us or to use our electronic ticketing
+                        system.</p>
+                    <ul class="list-unstyled text-muted">
+                        <li>info@reserveloop.com</li>
+                        <li>support@reserveloop.com</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-6 mx-5">
+        <div class="container">
+            <header class="mb-5">
+                <h2 class="text-uppercase h5 my-5">Contact form</h2>
+            </header>
+            <div class="row">
+                <div class="mb-5 mb-md-0 col-md-7">
+                    <form class="">
+                        <div class="controls">
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <div class="form-group"><label for="name" class="form-label">Your firstname
+                                            *</label><input name="name" id="name" placeholder="Enter your firstname"
+                                            required="" type="text" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="form-group"><label for="surname" class="form-label">Your firstname
+                                            *</label><input name="surname" id="surname"
+                                            placeholder="Enter your lasttname" required="" type="text"
+                                            class="form-control"></div>
+                                </div>
+                            </div>
+                            <div class="form-group my-2"><label for="email" class="form-label">Your email
+                                    *</label><input name="email" id="email" placeholder="Enter your email" required=""
+                                    type="email" class="form-control"></div>
+                            <div class="form-group"><label for="message" class="form-label">Your message for us
+                                    *</label><textarea rows="4" name="message" id="message"
+                                    placeholder="Enter your message" required="" class="form-control"></textarea></div>
+                            <button type="submit" class="btn btn-outline-success my-2">Send message</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-md-5">
+                    <p class="text-muted">Feel free to contact us for any query or doubt, fill this form for any further
+                        assitant. ReserveLoop support team will be there for you in any situation of inconviniece.
+                    </p>
+                    <p class="text-muted">Able an hope of body. Any nay shyness article matters own removal nothing his
+                        forming. Gay own additions education satisfied the perpetual. If he cause manor happy. Without
+                        farther she exposed saw man led. Along on happy could cease green oh.
+                    </p>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+        crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
+    -->
+
+</body>
+<footer class="footer-class bg-#6610f2">
+    <div class="footer-copyright text-center py-3">© 2021 Copyright:
+        <p> GCC_BCA</p>
+    </div>
+</footer>
+
+</html>
